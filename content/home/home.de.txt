@@ -1,0 +1,9 @@
+Title: Home
+
+----
+
+Text: Als Projektentwickler ist es unser Ziel, aus den einzelnen Faktoren wie Standort, Architektur, Gestaltung und Ökologie ein sinnvolles Ganzes zu entwerfen: ein Zuhause, das nicht nur heute und morgen, sondern auch nach vielen Jahren noch Wert, Bestand und Wirtschaftlichkeit beweist. Machen Sie sich hier ein Bild von unseren Leistungen, unseren Ideen, unserem Team und natürlich auch von unseren Projekten, die wir im Stadtgebiet von Luxemburg entwickeln und realisieren.
+
+----
+
+Catchphrase: Eine Idee die bleibt.

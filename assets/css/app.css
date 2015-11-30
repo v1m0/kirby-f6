@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700,700italic);
+
+/* ACCESSIBILITY DISABLE */
+*:focus {
+   outline:none !important;
+}
+/* END ACCESSIBILITY DISABLE */
+
+body {
+    background-color: #f0eeee;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    color: #9d9591;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: "Century Gothic", "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", Futura, sans-serif;
+    font-style: normal;
+    color: #8A804E;
+}
+
+h2, h3, h3, h4, h5 {
+    text-transform: uppercase;
+    font-family: "Century Gothic", "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", Futura, sans-serif;
+    font-style: normal;
+}
+
+h6 {
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    color: #9d9591;
+    font-size: 17px;
+}
+
+a {
+    color: #686868;
+}
+
+p {
+    line-height: 2rem;    
+}
+
+/* NAVBAR STYLING */
+.top-bar {
+    text-align: center;
+    padding-bottom: 0rem;
+    line-height: 0;
+}
+.top-bar, .top-bar ul {
+    background: white;
+}
+
+.top-bar ul {
+    display: inline-block; 
+}
+
+.dropdown.menu .has-submenu.is-down-arrow>a:after {
+    border-color: #9d9591 transparent transparent;
+}
+
+.dropdown.menu .submenu {
+    min-width: 400px;
+    background: #fefefe;
+    border-bottom: 1px solid #cacaca;
+    border-left: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+    border-top: none;
+}
+
+.menu li > a{
+    text-transform: uppercase;
+    font-family: "Century Gothic", "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", Futura, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.dropdown > li > ul > li {
+    text-align: left;
+}
+
+/* END NAVBAR STYLING */
+
+.mainrow {
+    margin-top: 3rem;
+}
+
+.footerrow {
+    font-size: 0.8rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    border-top: 1px solid #cacaca;
+}
+
+.footerrow a {
+    color: #9d9591;
+}
+
+.headcontainer {
+    background-color: white;
+    border-bottom: 1px solid #cacaca;
+}
+
+.headlogo {
+    max-width: 400px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.headlanguages {
+    text-align: right;
+}
+
+.headlanguages ul {
+    list-style-type: none;
+}
+
+.headlanguages ul li {
+    display: inline;
+}
+
+.headlanguages ul li a, .headlanguages ul li a:hover {
+    text-transform: uppercase;
+    font-family: "Century Gothic", "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", Futura, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: #686868;
+}
+
+.orbit-container > button {
+    font-style: normal;
+}
+
+/* CONTENT CUSTOMIZATION */
+
+.about-dd-image {
+    float: left;
+    margin-right: 3rem;
+    max-width: 25%;
+}
+
+table {
+    width: 100%;
+}
+
+table tr td {
+    vertical-align: top;
+    padding: 0.7rem;
+    border-top: 1px #9d9591 solid;
+    border-bottom: 1px #9d9591 solid;
+}
